@@ -1,6 +1,17 @@
 {
     "name": "vyppn/stirlingframe",
     "description": "a light weight php framework",
+    "type": "framework",
+    "homepage": "http://stirlingframe.org",
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "Chaowarit Ongkum",
+            "email": "ai@chaowarit.net",
+            "homepage": "http://stirlingframe.org",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.5.0"
     }
