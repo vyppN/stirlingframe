@@ -4,7 +4,6 @@
     "type": "framework",
     "homepage": "http://stirlingframe.org",
     "license": "GPL-2.0",
-    "minimum-stability":"dev",
     "authors": [
         {
             "name": "Chaowarit Ongkum",
