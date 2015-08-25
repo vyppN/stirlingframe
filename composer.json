@@ -1,5 +1,5 @@
 {
-    "name": "vyppN/stirlingframe",
+    "name": "vyppn/stirlingframe",
     "description": "a light weight php framework",
     "require": {
         "php": ">=5.5.0"
