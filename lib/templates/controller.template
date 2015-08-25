@@ -1,0 +1,12 @@
+<?php
+
+use system\kernel\Controller;
+use system\kernel\View;
+
+class #NAME#Controller extends Controller {
+
+    function get_index(){
+        $data['body'] = 'This is #NAME# page';
+        View::response('#LNAME#.index',$data);
+    }
+}

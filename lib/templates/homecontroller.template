@@ -1,0 +1,12 @@
+<?php
+
+use system\kernel\Controller;
+use system\kernel\View;
+
+class HomeController extends Controller {
+
+    function get_index(){
+        $data['welcome'] = 'Welcome to #NAME# application';
+        View::response('home.index',$data);
+    }
+}

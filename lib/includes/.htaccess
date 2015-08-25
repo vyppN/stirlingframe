@@ -1,0 +1,7 @@
+RewriteEngine On
+Options +FollowSymLinks
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !\.(css|gif|png|jpg|html|pdf|js|zip|rar|txt|js?t=F0RD|css?t=F0RD)$
+RewriteRule ^(.*)$ index.php/$1 [L]

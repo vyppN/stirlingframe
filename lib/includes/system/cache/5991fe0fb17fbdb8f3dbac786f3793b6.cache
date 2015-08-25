@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aikung</title>
+</head>
+<body>
+    <label for'product_id'>Product ID</label><input type='text' id='product_id' class='' style=';'/><label for'product_name'>Product name</label><input type='text' id='product_name' class='help' style=';'/><label for'product_price'>Product price</label><input type='text' id='product_price' class='button col-md-12 pull-right' style=';'/><label for'product_category_id'>Category</label><select id='product_category_id' class='form-control select2' style=';'><option></option><option value='1'>Electronics</option><option value='2'>Music Instruments</option><option value='3'>Mobile Phone</option></select>
+
+
+</body>
+</html>
